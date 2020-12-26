@@ -1,0 +1,155 @@
+
+
+.container {
+
+	display: flex;
+  	flex-direction: column;
+}
+
+.question {
+
+	font-size:2rem;
+	margin-bottom: 25px;
+	
+
+
+}
+
+
+.nav{
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.numOfQ {
+	text-align: center;
+	padding-right: 200px;
+	
+	
+}
+
+.numOfQ-text{
+	font-size: 1.4rem;
+	
+}
+
+.numOfQ-number {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #56a5eb;
+	
+}
+
+
+.score{
+	text-align: center;
+	padding-left: 200px;
+	
+}
+
+.score-text{
+	font-size: 1.4rem;
+}
+
+.score-points {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #56a5eb;
+	
+	
+}
+
+
+
+
+
+#skip {
+	outline: none;
+    outline-style: none;
+	
+}
+
+.control-btn{
+	font-size: 1.4rem;
+	padding: 1rem 0;
+	width: 8rem;
+	border: 0.1rem solid #56a5eb;
+	background-color: white;
+	color: #56a5eb;
+}
+
+
+
+.control-btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0.3rem 1rem 0 rgba(191, 191, 191, 1);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+
+.btn-game {
+	font-size: 1.4rem;
+	font-weight: bold;
+	padding: 1rem 0;
+	width: 16rem;
+	text-align: center;
+	border: 0.1rem solid #56a5eb;
+	margin-bottom: 1rem;
+	text-decoration: none;
+	color: #56a5eb;
+	background-color: white;
+	outline: none;
+    outline-style: none;
+}
+
+.btn-grid{
+
+	display:grid;
+	grid-template-columns: repeat(2,auto);
+	grid-gap: 0px 10px;
+	margin: auto;
+	  
+}
+
+.btn-game:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.timer {
+	
+	text-align:center;
+	border-radius: 50%;
+	width:75px;
+	height:75px;
+	font-size: 3rem;
+	border: solid #56a5eb;
+	background: white;
+	
+	
+}
+
+.seconds{
+	margin:7px;
+	
+	
+}
+
+.correct {
+ 
+ 	background-color: #00ff80;
+
+}
+
+.incorrect {
+
+	background-color: #FF6565;
+
+}
+
+

@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kviz</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  
+  <body>
+    <div class="container">
+	    <div id="nav" class="nav">
+			<div id="numOfQ" class="numOfQ">
+				<p id="numOfQ-text" class = "numOfQ-text">
+					Pitanje
+				</p>
+				<p id="numOfQ-number" class = "numOfQ-number">
+					1/10
+				</p>
+				
+			</div>
+			<div id="timer" class="timer">
+				<p id="seconds" class = "seconds">20</p>
+			</div>
+			<div id="score" class = "score"> 
+			
+				<p class="score-text">
+					Bodovi
+				</p>
+				
+				<p id="score-points" class="score-points">
+					0
+				</p>
+		
+			</div>
+		</div>
+		
+		
+    	<div id="game" class="justify-center flex-column">
+    		<div id="question" class="question"> Sta je odgovor na pitanje? </div>
+    		<div id="answers-buttons" class="btn-grid">
+			<button class="btn-game" data-number="1">Answer 1</button>
+			<button class="btn-game" data-number="2">Answer 2</button>
+			<button class="btn-game" data-number="3">Answer 3</button>
+			<button class="btn-game" data-number="4">Answer 4</button>
+		</div>
+    	</div>
+    	
+    	<div class="controls">
+    		<button id="skip" class="control-btn">Preskoči</button>
+    	</div>
+		
+    </div>
+
+<script src="game.js"></script>
+</body>
+
+</html>
+
